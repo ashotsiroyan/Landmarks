@@ -1,17 +1,17 @@
-//
-//  LandmarksApp.swift
-//  Landmarks
-//
-//  Created by Ashot Siroyan on 25.01.24.
-//
-
 import SwiftUI
 
 @main
-struct LandmarksApp: App {
+struct MountainsApp: App {
+    @State private var modelData = ModelData()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(modelData)
         }
+        #if !os(watchOS)
+        .commands {
+            LandmarkCommands()
+        }
+        #endif
     }
 }
