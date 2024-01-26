@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MountainsApp: App {
+struct LandmarksApp: App {
     @State private var modelData = ModelData()
 
     var body: some Scene {
@@ -11,6 +11,12 @@ struct MountainsApp: App {
         #if !os(watchOS)
         .commands {
             LandmarkCommands()
+        }
+        #endif
+        
+        #if os(macOS)
+        Settings{
+            LandmarkSettings()
         }
         #endif
     }
