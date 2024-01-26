@@ -144,7 +144,6 @@
 		4DEF06132B6292D600539AEC /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				4D848D7D2B63DA4B00FE7EC1 /* PageView */,
 				4DEF06142B6292D600539AEC /* LandmarksApp.swift */,
 				4D848D6B2B63875700FE7EC1 /* Assets.xcassets */,
 				4DEF06332B6292FD00539AEC /* Models */,
@@ -166,6 +165,7 @@
 		4DEF06232B6292FD00539AEC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4D848D7D2B63DA4B00FE7EC1 /* PageView */,
 				4D848D732B63BF9F00FE7EC1 /* Profiles  */,
 				4DEF062C2B6292FD00539AEC /* ContentView.swift */,
 				4DEF06282B6292FD00539AEC /* Categories */,
