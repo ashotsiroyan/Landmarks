@@ -37,6 +37,7 @@ struct LandmarkList: View {
                     } label: {
                         LandmarkRow(landmark: landmark)
                     }
+                    .buttonStyle(PlainButtonStyle())
                     .tag(landmark)
                 }
             }

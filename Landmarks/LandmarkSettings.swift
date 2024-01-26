@@ -12,7 +12,7 @@ struct LandmarkSettings: View {
                     Text(level.rawValue)
                 }
             }
-            .pickerStyle(.inline)
+            .pickerStyle(.menu)
         }
         .frame(width: 300)
         .navigationTitle("Landmark Settings")
