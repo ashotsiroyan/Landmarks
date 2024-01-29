@@ -1,10 +1,3 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A view showing a single category item.
-*/
-
 import SwiftUI
 
 struct CategoryItem: View {
