@@ -65,6 +65,7 @@ struct LandmarkList: View {
         } detail: {
             Text("Select a Landmark")
         }
+        .accentColor(Color(.label))
         .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
 }

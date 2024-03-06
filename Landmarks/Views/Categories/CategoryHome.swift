@@ -31,6 +31,7 @@ struct CategoryHome: View {
         } detail: {
             Text("Select a Landmark")
         }
+        .accentColor(Color(.label))
     }
 }
 
