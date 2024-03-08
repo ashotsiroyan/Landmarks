@@ -10,7 +10,7 @@ struct ProfileEditor: View {
     }
 
     var body: some View {
-        List {
+        Form {
             HStack {
                 Text("Username")
                 Spacer()
