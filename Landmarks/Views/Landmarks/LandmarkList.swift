@@ -65,7 +65,11 @@ struct LandmarkList: View {
         } detail: {
             Text("Select a Landmark")
         }
+        #if os(macOS)
+        .accentColor(Color(.labelColor))
+        #else
         .accentColor(Color(.label))
+        #endif
         .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
 }
