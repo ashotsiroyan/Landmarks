@@ -37,7 +37,7 @@
         "city": "Skagway",
         "state": "Alaska",
         "id": 1003,
-        "isFeatured": false,
+        "isFeatured": true,
         "isFavorite": true,
         "park": "Klondike Gold Rush National Historical Park",
         "coordinates": {
